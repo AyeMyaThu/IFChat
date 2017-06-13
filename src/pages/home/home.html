@@ -1,39 +1,3 @@
-<!--
-<ion-header>
-  <ion-navbar>
-    <ion-title>
-      Ionic Blank
-    </ion-title>
-  </ion-navbar>
-</ion-header>
- -->
-
-<!--
-<ion-content padding>
-  The world is your oyster.
-  <p>
-    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will be your guide.
-  </p>
-</ion-content>
- -->
-
-<!--
-<ion-content padding>
- <ion-list no-lines>
-  <ion-item *ngFor="let message of messagesList">
-   <h3>{{message.name}}</h3>
-   <p>{{message.message}}</p>
-  </ion-item>
- </ion-list>
-</ion-content>
-<ion-footer>
- <ion-item>
-  <ion-input type="text" placeholder="type here..." [(ngModel)]="newmessage"></ion-input>
-  <button ion-button clear item-right (click)="send()">Send</button>
- </ion-item>
-</ion-footer>
- -->
-
 <html ng-app="ionicApp">
 
   <head>
@@ -47,12 +11,10 @@
   </head>
 
   <body ng-controller="Messages">
-    <ion-pane "class="messaging-view">
-    <!--
-<ion-header-bar class="bar-calm">
-      <h1 class="title">IFChat</h1>
+    <ion-pane class="messaging-view">
+    <ion-header-bar class="bar-calm">
+      <h1 class="title">Ionic Firebase Chat</h1>
     </ion-header-bar>
- -->
 
     <ion-content class="content-stable"
                  on-swipe-left="hideTime = false"
@@ -84,5 +46,7 @@
   </ion-pane>
   </body>
 
+
 </html>
+
 

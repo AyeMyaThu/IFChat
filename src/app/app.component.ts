@@ -5,9 +5,7 @@ import { SplashScreen } from '@ionic-native/splash-screen';
 
 import * as firebase from 'firebase';
 
-//<script src="https://www.gstatic.com/firebasejs/4.1.2/firebase.js"></script>
-//<script>
-  // Initialize Firebase
+// Initialize Firebase
   var config = {
     apiKey: "AIzaSyBSkt0IowehBQiSv6In1HqJh8mYRSr1p9c",
     authDomain: "ionicchatapp-6da25.firebaseapp.com",
@@ -17,7 +15,6 @@ import * as firebase from 'firebase';
     messagingSenderId: "147852898346"
   };
   firebase.initializeApp(config);
-//</script>
 
 import { HomePage } from '../pages/home/home';
 @Component({
